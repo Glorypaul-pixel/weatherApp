@@ -7,3 +7,4 @@ async function checkWeather() {
 
   console.log(data);
 }
+checkWeather();
