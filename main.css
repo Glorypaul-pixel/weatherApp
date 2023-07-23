@@ -7,22 +7,23 @@
 }
 body {
   background: black;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2.3rem;
+  margin: 2rem;
   font-family: "Roboto", sans-serif;
 }
 main {
   background: linear-gradient(purple, rgb(115, 208, 216));
   color: white;
   padding: 2rem;
+  width: 30%;
   border-radius: 2rem;
 }
 #search-bar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 #search-icon {
   background: white;
@@ -32,6 +33,7 @@ main {
 }
 .col {
   display: flex;
+  align-items: center;
 }
 .fa-magnifying-glass {
   font-size: 1.2rem;
@@ -39,15 +41,25 @@ main {
   color: black;
 }
 input {
-  padding: 1rem 3rem;
+  padding: 1rem 0.6rem;
+  width: 100%;
   border-radius: 2rem;
   border: none;
 }
 #sun-icon {
-  font-size: 8rem;
-  color: #edcb1e;
-  text-align: center;
-  margin-top: 3rem;
+  width: 70%;
+}
+img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+#weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 #percent {
   text-align: center;
@@ -68,14 +80,14 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  line-height: 1rem;
 }
 h4 {
   font-weight: 300;
   font-size: 1rem;
 }
-.humidity .fa-water {
-  font-size: 4rem;
+.fa-water {
+  font-size: 2rem;
   margin-right: 0.3rem;
 }
 .fa-wind {
