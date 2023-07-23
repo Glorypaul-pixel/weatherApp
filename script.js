@@ -1,5 +1,6 @@
 const apiKey = "aa4fec6c310df80f65e04e7256844f13";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?unit=metric";
+const apiUrl =
+  "https://api.openweathermap.org/data/2.5/weather?unit=metric&q=bangalore";
 
 async function checkWeather() {
   const response = await fetch(apiUrl + `&appid=${apiKey}`);
