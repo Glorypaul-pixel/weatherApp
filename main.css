@@ -98,9 +98,56 @@ h4 {
 .wind span {
   font-size: 0.6rem;
 }
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 990px) {
   main {
-    width: 80%;
+    width: 40%;
+    padding: 1rem;
+  }
+
+  #search-icon {
+    background: white;
+    padding: 0.7rem;
+    border-radius: 49%;
+    margin-left: 1rem;
+  }
+  .col {
+    display: flex;
+    align-items: center;
+  }
+  .fa-magnifying-glass {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: black;
+  }
+  input {
+    padding: 0.6rem 0.6rem;
+  }
+  #sun-icon {
+    width: 60%;
+  }
+
+  #percent {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+  .fa-water {
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+  }
+  .fa-wind {
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+  }
+  .humidity span,
+  .wind span {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 690px) {
+  main {
+    width: 70%;
     padding: 1rem;
   }
 
