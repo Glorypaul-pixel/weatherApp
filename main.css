@@ -143,7 +143,8 @@ h4 {
 }
 @media only screen and (max-width: 690px) {
   main {
-    width: 90%;
+    margin-top: 5rem;
+    width: 100%;
     padding: 1.5rem;
   }
 
@@ -158,20 +159,20 @@ h4 {
     padding: 0.6rem 0.6rem;
   }
   #sun-icon {
-    width: 70%;
+    width: 90%;
   }
 
   #percent {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   #details p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   .fa-water {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-right: 0.3rem;
   }
   .fa-wind {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 }
