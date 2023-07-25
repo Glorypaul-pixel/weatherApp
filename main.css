@@ -106,16 +106,13 @@ h4 {
 
   #search-icon {
     background: white;
-    padding: 0.7rem;
+    padding: 0.5rem;
     border-radius: 49%;
     margin-left: 1rem;
   }
-  .col {
-    display: flex;
-    align-items: center;
-  }
+
   .fa-magnifying-glass {
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     color: black;
   }
@@ -127,68 +124,51 @@ h4 {
   }
 
   #percent {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
-  h4 {
-    font-size: 0.5rem;
+  #details p {
+    font-size: 0.8rem;
   }
   .fa-water {
-    font-size: 0.8rem;
+    font-size: 2rem;
     margin-right: 0.3rem;
   }
   .fa-wind {
-    font-size: 0.8rem;
+    font-size: 1.8rem;
     margin-right: 0.3rem;
-  }
-  .humidity span,
-  .wind span {
-    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 690px) {
   main {
-    width: 70%;
+    width: 80%;
     padding: 1rem;
   }
 
   #search-icon {
-    background: white;
-    padding: 0.7rem;
-    border-radius: 49%;
-    margin-left: 1rem;
+    padding: 0.5rem;
   }
-  .col {
-    display: flex;
-    align-items: center;
-  }
+
   .fa-magnifying-glass {
-    font-size: 1.2rem;
-    cursor: pointer;
-    color: black;
+    font-size: 1rem;
   }
   input {
     padding: 0.6rem 0.6rem;
   }
   #sun-icon {
-    width: 60%;
+    width: 70%;
   }
 
   #percent {
     font-size: 1rem;
   }
-  h4 {
+  #details p {
     font-size: 0.5rem;
   }
   .fa-water {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     margin-right: 0.3rem;
   }
   .fa-wind {
-    font-size: 1rem;
-    margin-right: 0.3rem;
-  }
-  .humidity span,
-  .wind span {
-    font-size: 0.2rem;
+    font-size: 1.5rem;
   }
 }
