@@ -17,12 +17,32 @@ async function checkWeather(city) {
   document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
   description.innerHTML = "<em>" + `${data.weather[0].description}` + "</em>";
   document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
-  if (data.cod === "404") {
+  if (response.cod === "404") {
     locNotFnd.style.display = "flex";
     console.log("error");
     return;
   }
+  switch (data.weather[0].main) {
+    case `Clouds`:
+      weatherImg.src = `./img/scattered.png`;
+      break;
+    case `moderate`:
+      weatherImg.src = `img/transparent cloud.png`;
+    case `Clear`:
+      weatherImg.src = `./img/sunn.png`;
+      break;
+    case `Snow`:
+      weatherImg.src = `./img/snow.png`;
+      break;
+    case `Rain`:
+      weatherImg.src = `./img/snow.png`;
+      break;
+    case `Mist`:
+      weatherImg.src = `./img/mist.jpeg`;
+      break;
+  }
 }
+
 searchBar.addEventListener("click", () => {
   checkWeather(searchBox.value);
 });
