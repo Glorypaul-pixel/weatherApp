@@ -37,7 +37,10 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.location-not-found h2 {
   text-align: center;
+  padding-bottom: 1rem;
 }
 .col {
   display: flex;
@@ -56,7 +59,7 @@ input {
 }
 #sun-icon {
   width: 70%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 img {
   width: 100%;
